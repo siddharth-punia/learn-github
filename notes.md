@@ -16,7 +16,7 @@ git config --global user.email “[valid-email]” -> to configure email
 
 in vim ->
 press i -> insert
-then add text
+then add text "creating a file to wish merry christmas"
 
 baahar jaane k lie ->
 1. esc button
@@ -24,4 +24,8 @@ baahar jaane k lie ->
 
 master (root-commit) 1472149 -> master branch par commit kara hai or uski id hai 1472149
 
- git file -A -> sarri file add krdo
+ git add -A -> sarri file add krdo
+
+ git commit -m "creating a file to wish happy new year" -> jo kaam vim se kia uska shortcut
+
+ delete file1.txt
