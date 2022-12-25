@@ -29,3 +29,29 @@ master (root-commit) 1472149 -> master branch par commit kara hai or uski id hai
  git commit -m "creating a file to wish happy new year" -> jo kaam vim se kia uska shortcut
 
  delete file1.txt
+ git add -A
+ git commit -m "christmas tree ka message daala or file1.txt ko delete kr dia"
+
+ jese jese commit krenge new version bnta jaeega
+
+ abhi tak jo jo kia us dekhne ke lie -> git log
+
+ commit d6c564d4056095805f8a511edc23434c4a9d1c3c -> commit id
+
+ latest version -> master
+
+ git checkout 15489c93d0e2ff669f708ef14c5ed41284ebb46e -> isse jo version m changes hue vo aajaenge
+ is id pr switch ho gye
+
+ git checkout master -> Switched to branch 'master'
+
+jab bhi ham code change krte hai vo master branch m change nai karte
+master branch m change nahi karte, branch kaat te hai
+jis node m khade hoke branch bnai us branch ma file aajaegi
+git branch-> check current branches
+
+
+to create new branch
+1. git branch oggy
+
+master se oggy par shift karna hai to -> git checkout oggy
