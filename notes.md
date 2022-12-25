@@ -24,9 +24,9 @@ baahar jaane k lie ->
 
 master (root-commit) 1472149 -> master branch par commit kara hai or uski id hai 1472149
 
- git add -A -> sarri file add krdo
+ # git add -A -> sarri file add krdo
 
- git commit -m "creating a file to wish happy new year" -> jo kaam vim se kia uska shortcut
+ **git commit -m** "creating a file to wish happy new year" -> jo kaam vim se kia uska shortcut
 
  delete file1.txt
  git add -A
@@ -55,3 +55,4 @@ to create new branch
 1. git branch oggy
 
 master se oggy par shift karna hai to -> git checkout oggy
+
