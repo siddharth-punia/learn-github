@@ -51,8 +51,23 @@ jis node m khade hoke branch bnai us branch ma file aajaegi
 git branch-> check current branches
 
 
-to create new branch
+# to create new branch
 1. git branch oggy
 
 master se oggy par shift karna hai to -> git checkout oggy
 
+1. make changes in the file
+git add -A
+git commit -m "changes in oggy"
+git checkout master -> master pr ajao or yaha se merge krdo
+git merge oggy -> merge kr dia
+
+git branch -D oggy -> delete
+
+branch banane ka chota tareeka or uspar jaane ka bhi ->
+git checkout -b <filename> -> Switched to a new branch 'chotabheem'
+
+
+chotabheem branch ka merge krne k baad koi kaam nhi, use delete krdo
+
+q -> quit
